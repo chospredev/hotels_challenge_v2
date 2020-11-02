@@ -1,0 +1,41 @@
+.landing-wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+
+	.landing-box {
+		background-color: white;
+		padding: 180px;
+
+		.landing-welcome {
+			font-size: 32px;
+			color: cadetblue;
+		}
+	}
+
+	.links {
+		margin-top: 15px;
+
+		.register-link {
+			text-decoration: none;
+			color: cadetblue;
+			transition: 250ms;
+
+			&:hover {
+				color: blue;
+			}
+		}
+
+		.login-link {
+			text-decoration: none;
+			color: cadetblue;
+			transition: 250ms;
+
+			&:hover {
+				color: blue;
+			}
+		}
+	}
+}

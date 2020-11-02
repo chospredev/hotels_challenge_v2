@@ -1,0 +1,98 @@
+.login {
+	display: grid;
+	place-items: center;
+
+	width: 100%;
+	height: 70vh;
+
+	.login-wrap {
+		background-color: white;
+
+		width: 350px;
+		padding: 90px;
+		margin-top: 90px;
+
+		h1 {
+			margin-bottom: 20px;
+
+			font-weight: 400;
+			font-size: 26px;
+
+			color: cadetblue;
+		}
+
+		.form-wrap {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			input {
+				margin-top: 10px;
+				height: 27px;
+				width: 250px;
+				outline: none;
+
+				font-weight: 600;
+
+				border: none;
+				border-bottom: 2px solid #d3d3d3;
+
+				transition: all ease 100ms;
+
+				&:focus {
+					border-bottom: 2px solid cadetblue;
+				}
+			}
+
+			.login-btn {
+				margin-top: 20px;
+				padding: 10px 30px;
+
+				border: none;
+				outline: none;
+
+				background-color: cadetblue;
+				color: white;
+			}
+
+			.success-login-feedback {
+				color: green;
+				font-weight: 500;
+				margin-top: 20px;
+			}
+
+			.invalid-character-feedback {
+				color: red;
+				font-weight: 500;
+				font-size: 10px;
+				margin-top: 10px;
+				margin-left: 150px;
+				width: 350px;
+			}
+
+			.invalid-login-feedback {
+				color: red;
+				font-weight: 500;
+				margin-top: 40px;
+				margin-left: 20px;
+			}
+
+			.success-feedback {
+				color: green;
+				font-weight: 500;
+				font-size: 10px;
+				margin-top: 10px;
+				margin-left: -100px;
+			}
+
+			.invalid-feedback {
+				color: red;
+				font-weight: 500;
+				font-size: 10px;
+				margin-top: 10px;
+				margin-left: -100px;
+			}
+		}
+	}
+}
